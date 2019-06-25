@@ -1,0 +1,62 @@
+#blog #letter{text-align: center;}
+#blog #letter img.arrow{
+	display: block;
+	color: #fff;
+	position:absolute;
+	top: 25px;
+	right: 0;
+	bottom: 0;
+	left:0;
+	margin: 0 auto;
+	cursor: pointer;
+	transition: 0.7s;
+	animation: arrow 2s infinite;
+}
+#blog #letter h2{
+	font-family: 'latoregular';
+	font-size: 30px;
+	color: #3d506f;
+	text-transform: uppercase;
+	padding-top: 150px;
+	margin-bottom: 34px;
+}
+#blog #letter p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #7f90a5;
+	line-height: 18px;
+	margin-bottom: 68px;
+}
+#blog #letter form{margin-bottom: 30px;}
+#blog #letter input{
+	font-family: 'latoregular';
+	background: #3d506f;
+  	color:#fff;	
+	border: none;
+	width: 570px;
+	height: 65px;
+	padding: 12px 20px;
+	outline: none;
+	margin: auto 25px 10px auto;
+}
+#blog #letter ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color:#fff;
+	font-family: 'latoregular';
+	opacity: 1; /* Firefox */
+}
+
+#blog #letter :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color:#fff;
+	font-family: 'latoregular';
+}
+#blog #letter ::-ms-input-placeholder { /* Microsoft Edge */
+	color:#fff;
+	font-family: 'latoregular';
+}
+/* Small - sm */
+@media only screen and (max-width: 768px){
+	#blog #letter {text-align: center;}
+	#blog #letter input{
+		width: 100%;
+  		margin: 0 0 18px;}
+}

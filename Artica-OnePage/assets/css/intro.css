@@ -1,0 +1,36 @@
+#info {
+	height: 784px;
+	background: #546279;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+#info .inner-shell{
+	display: block;
+	height: 354px;
+	background:#222c3f;
+	position: absolute;
+	top: 34%;
+	right: 0;
+	bottom: auto;
+	left: 0;
+	margin: auto 0;
+}
+#info .inner-shell p{
+    font-family: 'latoregular';
+    font-size: 15px;
+	color: #fff;
+	padding: 24px 0 22px 0;
+	line-height: 19px;
+}
+#info .inner-shell img{
+	display: block;
+	margin: auto;
+	padding-top: 43px;
+}
+#info .inner-shell #stich{padding-top: 40px;}
+header #info a:hover,
+header #info a:visited,
+header #info a:focus {
+	text-decoration: none;
+}

@@ -1,0 +1,71 @@
+#customers #companies{
+	text-align: center;
+	color: #fff;
+	background: #161f32;
+}
+#customers #companies h2{
+	font-family: 'latoregular';
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 64px;
+	margin-bottom: 24px;
+}
+#customers #companies p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 60px;
+}
+#customers #companies .client img{margin-bottom: 70px;}
+#customers #testimonials{
+	text-align: center;
+	background: #fff;
+}
+#customers #testimonials h2{
+	font-family: 'latoregular';
+	font-size: 30px;
+	color: #3d506f;
+	text-transform: uppercase;
+	padding-top:65px;
+	margin-bottom:35px;
+}
+#customers #testimonials h3{
+	font-family: 'latoregular';
+	font-size: 20px;
+	color: #3d506f;
+	margin-bottom:65px;
+}
+#customers #testimonials p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	font-style: italic;
+	color: #7f90a5;
+	line-height: 18px;
+	margin-bottom: 35px;
+}
+#customers #testimonials img{margin-bottom:35px;}
+/* Large - lg */
+@media only screen and (max-width: 1200px){
+	#customers #companies .client.set-1{
+		position: relative;
+		top:100px;
+	}
+}
+/* Midl - md */
+@media only screen and (max-width: 992px){
+	#customers #companies .client.set-1{
+		position: relative;
+		top:0;
+	}
+	#customers #companies .client.set-2{
+		position: relative;
+		top:-100px;
+	}
+}
+/* Small - sm */
+@media only screen and (max-width: 768px){
+		#customers #companies .client.set-2{
+		position: relative;
+		top:0;
+	}
+}

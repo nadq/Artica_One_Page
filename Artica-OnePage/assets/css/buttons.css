@@ -1,0 +1,105 @@
+/* Buttons  - transparent */
+#info button,
+#portfolio #expand button{
+	width: 172px;
+	height: 52px;
+	background: transparent;
+	border: 1px solid #fff;
+	transition: 0.3s;
+	outline: none;
+}
+#info button a,
+#portfolio #expand button a{
+	font-family: 'latoregular';
+    font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+#info button:hover,
+#portfolio #expand button:hover{
+	background:#00c7fb;
+}
+/* Button - container */
+.button-container{
+	display: block;
+	margin: 0 auto 68px auto;
+	height: 36px;
+}
+.button-container button{
+	display: inline;
+	background: #3d506f;
+	width: auto;
+	height: 36px;
+	border:none;
+	padding:5px 23px;
+	margin: auto 5px 10px 5px;
+	transition: 0.3s;
+}
+.button-container button a{
+	font-family: 'latoregular';
+	font-size: 20px;
+	color:#fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.button-container button:hover {background:#00c7fb;}
+/* Buttons light-blue:hover  */
+#blog #letter button,
+#portfolio #frame-down button,
+#abilities .intro .company button{
+	width: 170px;
+	height: 50px;
+	background: #3d506f;
+	border:none;
+	margin-bottom: 64px;
+	transition: 0.3s;
+}
+#blog #letter button{height: 65px;}
+#blog #letter button a,
+#portfolio #frame-down button a,
+#abilities .intro .company button a{
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+#blog #letter button a{font-size: 20px;}
+#blog #letter button:hover,
+#portfolio #frame-down button:hover,
+#abilities .intro .company button:hover{
+	background: #00c7fb;
+}
+footer #contacts button {
+	height: 67px;
+	width: 235px;
+	background: #fff;
+	transition: 0.3s;
+	margin-bottom: 68px;
+	border: none;
+}
+footer #contacts button a{
+	font-family: 'latoregular';
+	font-size: 20px;
+	color: #3d506f;
+	transition: 0.3s;
+}
+footer #contacts button:hover{background: #00c7fb;}
+footer #contacts button:hover a{
+	color: #fff;
+	text-decoration: none;
+}
+/* Large - lg */
+@media only screen and (max-width: 1200px){
+	#abilities .intro .company button{
+		display: block;
+		margin: auto 0 25px auto;
+	}
+	#portfolio #expand button{
+		float: right;
+		margin-bottom: 15px;
+	}
+}
+/* Midl - md */
+@media only screen and (max-width: 992px){
+	.button-container{margin-bottom: 120px;}
+}

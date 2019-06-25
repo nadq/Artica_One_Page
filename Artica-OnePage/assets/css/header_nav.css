@@ -1,0 +1,106 @@
+header {
+	height: 100px;
+	background: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	box-shadow: 0px 0px 6px 0px rgba(86, 98, 121, 0.3)
+}
+header #logo{
+	padding-top:32px;
+	width: 122px;
+	display: inline-block;
+}
+header #menu {
+	padding-top:45px;
+	float: right;
+}
+header #menu ul {
+	margin: 0;
+	text-align:center;
+}
+header #menu ul li {
+	margin: 0 ;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding-right: 25px;
+}
+header #menu ul li a{
+	font-family: 'latobold';
+	color: #999;
+	font-size: 16px;
+	height: 100%;
+	transition: 0.5s;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header #menu ul li a:hover{color: #222c3f;}
+header .canvas-open{
+	padding-top:39px;
+	color: #000;
+	font-size: 22px;
+	float: right;
+	padding-right: 21px;
+	transition: 0.3s;
+	display: none;
+	cursor: pointer;
+}
+header .canvas-close{
+	color: #fff;
+	float: right;
+	font-size: 22px;
+	cursor: pointer;
+	display: none!important;
+}
+header .canvas-open:hover,
+header .canvas-close:hover{
+	color: #26a9d6;
+	font-weight: bold;
+}
+header #menu > ul li a:hover,
+header #menu > ul li a:visited,
+header #menu > ul li a:focus {
+	text-decoration: none;
+
+}
+/* Large - lg */
+@media only screen and (max-width: 1200px){
+	header #menu ul li a{color: #999;}
+	header #menu ul li a:hover{color: #fff;}
+	header .canvas-open,
+	header .canvas-close{
+		display: block !important;
+	}
+	header #menu {
+		float:none;
+		margin: auto;
+		position: fixed;	
+		width: 100% !important;
+		top:0px;
+		right: 100%;
+		bottom: auto;
+		left:-140%;
+		transition: 0.3s;
+		z-index: 2;
+		padding: 0;
+		}
+	header #menu.open{left: 0}
+	header #menu li:first-child{
+		display: inline-block;
+		padding-top: 40px;
+		text-align: right;
+		padding-right: 32px;
+	}
+	header #menu ul li{
+		background:#001133;
+		width: 100%;
+		display: block;
+	}
+	header #menu > ul li a:hover{box-shadow: none;}
+	header #menu ul li a{
+		padding:30px 15px !important;
+		text-align: center;
+		display: block;
+	}
+}

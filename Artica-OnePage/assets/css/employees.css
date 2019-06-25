@@ -1,0 +1,118 @@
+#employees{
+	position: relative;
+
+}
+
+#employees .introduction{
+	background: #222c40;
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+#employees .introduction h2{
+	font-family: 'latoregular';
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 68px;
+	margin-bottom: 24px;
+}
+#employees .introduction span{
+	font-family: 'latoregular';
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 22px;
+}
+#employees .introduction img{
+	display: block;
+	margin:0 auto;
+}
+#employees .introduction p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	line-height: 18px;
+	padding-top: 24px;
+	margin-bottom: 84px
+}
+/*circle*/
+#employees .introduction .shape a{
+	text-decoration: none;
+	color: #fff;
+}
+#employees .introduction .shape .circle{
+	height: 220px;
+	width: 220px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	float: none;
+	margin:0 auto 24px auto;
+	transition: 0.3s;
+	opacity: 1;
+}
+#employees .introduction .shape .circle#person1{background-image: url('../img/person1.png');}
+#employees .introduction .shape .circle#person2{background-image: url('../img/person2.png');}
+#employees .introduction .shape .circle#person3{background-image: url('../img/person3.png');}
+#employees .introduction .shape .circle#person4{background-image: url('../img/person4.png');}
+#employees .introduction .shape .circle img{
+	opacity: 0;
+	transition: 0.3s;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin:0 auto;
+	transition: 0.7s;
+	cursor: pointer;
+}
+#employees .introduction .shape .circle:hover{
+	border: 4px solid #fff;
+	opacity: 0.7;
+}
+#employees .introduction .shape .circle:hover img{
+	top: 40%;
+	opacity: 1;
+}
+#employees .introduction .shape h3{
+	font-family: 'latobold';
+	font-size: 20px;
+	margin-bottom: 11px;
+}
+#employees .introduction .shape span{
+	font-family: 'latolight';
+	font-size: 15px;
+	margin-bottom: 64px;
+	text-transform: none;
+}
+#employees #story {
+	background: #161f32;
+	display: none;
+	color: #fff;
+}
+#employees #story i{
+	cursor: pointer;
+	padding-top: 24px;
+	float: right;
+}
+#employees #story h2{
+	font-family: 'latobold';
+	font-size: 20px;
+	text-align: left;
+	padding-top: 35px;
+	margin-bottom: 35px;
+}
+#employees #story p{
+	font-family: 'latolight';
+	font-size: 15px;
+	text-align: justify;
+	line-height: 18px;
+	margin-bottom: 32px;
+}
+#employees #story span{
+	font-family: 'latobold';
+	font-size: 15px;
+	display: block;
+	margin: 0 auto 11px 0;
+}
+#employees #story span:last-child{margin: 0 auto 35px 0;}
+#employees #story img{padding-right: 10px;}

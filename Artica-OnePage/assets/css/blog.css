@@ -1,0 +1,24 @@
+#blog #main{text-align: center;}
+#blog #main h2{
+	font-family: 'latoregular';
+	font-size: 30px;
+	color: #3d506f;
+	text-transform: uppercase;
+	padding-top: 66px;
+	margin-bottom: 24px;
+}
+#blog #main h3{
+	font-family: 'latoregular';
+	font-size: 20px;
+	color: #7f90a5;
+	margin-bottom: 24px;
+}
+#blog #main img{margin-bottom: 24px;}
+#blog #main p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #7f90a5;
+	line-height: 18px;
+	margin-bottom: 70px;
+}
+

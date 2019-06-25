@@ -1,0 +1,69 @@
+#services .content{
+	text-align: center;
+	background: #fff;
+}
+#services .content h2{
+	font-family: 'latoregular';
+	font-size: 30px;
+	color: #3d506f;
+	text-transform: uppercase;
+	padding-top: 56px;
+	margin-bottom: 18px;
+}
+#services .content h3{
+	font-family: 'latoregular';
+	font-size: 20px;
+	color: #7f90a5;
+	text-transform: uppercase;
+	margin-bottom: 21px;
+}
+#services .content img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 22px;
+}
+#services .content p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #7f90a5;
+	line-height: 18px;
+	margin-bottom: 63px;
+}
+#services .content >.option{background: #fff;}
+#services .content .option a{display: inline-block;}
+#services .content .option a img{margin-bottom: 21px;}
+#services .content .option a span{
+	font-family: 'latoregular';
+	font-size: 20px;
+	color: #3d506f;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+#services .content .option p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #7f90a5;
+	line-height: 18px;
+	margin-bottom: 77px;
+}
+#services section{
+	background:#1d263a;
+	text-align: center;
+
+}
+#services .quote {display: inline-block;}
+#services .quote p{
+    font-family: 'latolight';
+	font-size: 25px;
+	color: #fff;
+	padding-top:68px;
+	margin-bottom: 33px;
+	line-height:30px ; 
+}
+#services .quote h4{
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #fff;
+	padding-bottom:63px; 
+}

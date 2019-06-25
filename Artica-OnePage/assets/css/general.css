@@ -1,0 +1,57 @@
+.clear{
+	margin: 0!important;
+	padding: 0!important;
+}
+.-innerLeft{
+	padding-left: 0;
+}
+.-innerRight{
+	padding-right: 0;
+}
+@keyframes arrow {
+  0%  {
+  	top:80px;
+  }
+  60% {
+	top:25px;
+  }
+
+  100%{
+  	top: 80px;
+  }
+}
+/* expand - portfolio,employees*/
+.switch-hidden-l{
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -100%;
+  margin: 0 auto;
+  transition: 3s;
+}
+.switch-hidden-r{
+ position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 100%;
+  margin: 0 auto;
+  transition: 3s;
+}
+.switch-show{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 3s;
+}
+.delay{position: absolute;}
+
+/* Custom Media - stich */
+@media only screen and (max-width: 600px){
+  #stich{width: 350px;}
+}
+@media only screen and (max-width: 500px){
+  #stich{width: 250px;}
+}

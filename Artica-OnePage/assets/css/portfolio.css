@@ -1,0 +1,128 @@
+#portfolio{
+	overflow: hidden;
+	background: #fff;
+}
+#portfolio #frame-upp{
+	position: relative;
+	text-align: center;
+	background: #fff;
+	z-index: 1;
+}
+#portfolio #frame-upp h2{
+	font-family: 'latoregular';
+	font-size: 30px;
+	color: #3d506f;
+	text-transform: uppercase;
+	padding-top:62px;
+	margin-bottom:24px;
+}
+#portfolio #frame-upp h3{
+	font-family: 'latoregular';
+	font-size: 20px;
+	color: #7f90a5;
+	text-transform: uppercase;
+	margin-bottom:24px;
+}
+#portfolio #frame-upp img{margin-bottom:24px;}
+#portfolio #frame-upp p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #7f90a5;
+	line-height: 18px;
+	margin-bottom: 65px;
+}
+#portfolio #frame-upp .frame-container .frame,
+#portfolio #frame-down .frame-container .frame{text-align: -webkit-center;}
+
+#portfolio #frame-upp .frame-container .frame .img-container img,
+#portfolio #frame-down .frame-container .frame .img-container img{
+	height: 200px;
+	width: 270px;
+}
+#portfolio #frame-upp .frame-container .frame .layer,
+#portfolio #frame-down .frame-container .frame .layer{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 200px;
+	width: 270px;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #222c40;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#portfolio #frame-upp .frame-container .frame:hover .layer,
+#portfolio #frame-down .frame-container .frame:hover .layer{
+	opacity: 0.9;
+}
+#portfolio #frame-upp .frame-container .frame:hover .branding ,
+#portfolio #frame-down .frame-container .frame:hover .branding{
+	opacity: 1;
+	z-index: 3;
+}
+#portfolio #frame-upp .frame-container .frame .branding,
+#portfolio #frame-down .frame-container .frame .branding{
+	position: absolute;
+  	top: 50%;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
+  	transition: 0.3s;
+  	opacity: 0;
+}
+#portfolio #frame-upp .frame-container .frame .branding h4,
+#portfolio #frame-down .frame-container .frame .branding h4{
+	font-family: 'latobold';
+	font-size: 20px;
+	color: #fff;
+}
+#portfolio #frame-upp .frame-container .frame .branding span,
+#portfolio #frame-down .frame-container .frame .branding span{
+	font-family: 'latolight';
+	font-size: 15px;
+	color: #fff;
+}
+#portfolio #frame-down{text-align: center;}
+#portfolio #frame-down .frame-container{margin-bottom: 30px;}
+
+#portfolio #frame-down img.arrow{
+	display: block;
+	color: #fff;
+	position:relative;
+	top: 25px;
+	right: 0;
+	bottom: 0;
+	left:0;
+	margin: 0 auto;
+	cursor: pointer;
+	transition: 0.7s;
+	animation: arrow 2s infinite;
+}
+#portfolio #frame-down h2{
+	padding-top: 150px;
+	font-family: 'latoregular';
+	font-size: 30px;
+	color: #3d506f;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+#portfolio #frame-down p{
+	font-family: 'latoregular';
+	font-size: 15px;
+	color: #7f90a5;
+	line-height: 18px;
+	margin-bottom: 65px;
+}
+/* Large - lg */
+@media only screen and (max-width: 1200px){
+	#portfolio #frame-down img{
+    	margin-bottom: 25px;	
+	}
+	#portfolio #frame-upp .frame-container .frame .layer,
+	#portfolio #frame-down .frame-container .frame .layer{
+	left: 0;
+	}
+}
